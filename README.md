@@ -1,16 +1,33 @@
-# flutter_world_time
+# Cubit World Time App
 
-A new Flutter application.
+A [Flutter](https://flutter.dev/) application for retrieving json data from API made with [Cubit](https://pub.dev/documentation/flutter_cubit/latest/).
+Also used to have advance [Navigator](https://api.flutter.dev/flutter/widgets/Navigator-class.html) class functionality (check [initial commit](https://github.com/JollyGoal/flutter_world_time/commit/3617bfc8c1b0121126646e1cb405a11381a7afab)).
 
-## Getting Started
+[Download APK](release/world-time.apk)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## External Packages
+```
+dependencies:
+  intl: ^0.16.1
+  http: ^0.12.2
+  flutter_spinkit: ^4.1.2
+  bloc: ^6.0.0
+  flutter_bloc: ^6.0.0
+  flutter_launcher_icons: ^0.8.1
+  flutter_launcher_name: ^0.0.1
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Demo GIF
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![gif](release/demo.gif)
+
+[Download preview demo.mp4](release/demo.mp4)
+
+
+## Screenshots
+
+|Pick Screen|Daytime Screen|Night Screen|
+|---|---|---|
+|![main](release/screenshot3.jpg)|![result](release/screenshot2.jpg)|![error](release/screenshot1.jpg)|
+
